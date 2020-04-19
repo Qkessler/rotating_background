@@ -15,7 +15,6 @@ I recomment creating some kind of service to run the script everytime you login,
 
 # Recommended wallpapers.
 
-<!-- ![Unsplash logo](https://github.com/Qkessler/rotating_background/blob/master/readme/unsplash.jpg "Unsplash logo") -->
 <img src="https://github.com/Qkessler/rotating_background/blob/master/readme/unsplash.jpg" width="300">
 
 [Unsplash wallpapers tab](https://unsplash.com/t/wallpapers)

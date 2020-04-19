@@ -1,5 +1,5 @@
 from logging_file import init_logging
-from rotating_back import rotating_background
+from rback_directory import rotating_directory
 import os.path
 
 if __name__ == '__main__':
@@ -7,7 +7,7 @@ if __name__ == '__main__':
     if os.path.isfile('input_user.txt'):
         with open('input_user.txt', 'r') as f:
             lines = f.readlines()
-            rotating_background(lines[0].strip('\n'), lines[1].strip('\n'))
+            rotating_directory(lines[0].strip('\n'), lines[1].strip('\n'))
     else:
         path = input('Type the absolute path of the wallpapers:\n')
         days = input('Type in how many days you want to change it:\n')
