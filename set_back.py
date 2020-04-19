@@ -1,13 +1,14 @@
 import os
-import datetime
+from datetime import datetime, timedelta
 import re
 import logbook
 
 app_log = logbook.Logger('App')
 
 
-def set_background(background, days=0):
+def set_background(background, days='0'):
     last_background = None
+    days = timedelta(days=int(days))
     with open('backgrounds.log', 'r') as f:
         last_background = f.readline().strip('\n')
     if last_background:
