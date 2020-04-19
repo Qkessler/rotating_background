@@ -11,7 +11,6 @@ re_format = re.compile(r'.*\.jpg|.*\.png')
 
 
 def rotating_directory(path, days):
-    days = timedelta(days=int(days))
     path_files = [f for f in os.listdir(path)]
     abs_path = os.path.abspath(path)
     paths = ["/".join([abs_path, f]) for f in path_files]
