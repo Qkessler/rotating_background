@@ -12,3 +12,9 @@ There is a requirements file which you can install with pip to correctly use thi
 The script is designed to check if you are using it for the first time, and it will ask some input to configure itself. Once done once, it will run in the background, checking the log created.
 
 I recomment creating some kind of service to run the script everytime you login, so it becomes fully automated. Have fun!
+
+# Recommended wallpapers.
+
+<!-- !(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png) -->
+
+[Unsplash wallpapers tab](https://unsplash.com/t/wallpapers)
