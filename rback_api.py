@@ -14,8 +14,8 @@ headers = {'Accept-Version': 'v1',
 base = 'https://api.unsplash.com/photos/random'
 
 
-def rotating_api(keyword, days):
-    params = {'query': 'wallpaper',
+def rotating_api(keyword):
+    params = {'query': 'landscape',
               'orientation': 'landscape'}
     res = requests.get(base, params=params, headers=headers)
     data = res.json()
