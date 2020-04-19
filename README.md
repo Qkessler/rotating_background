@@ -4,6 +4,11 @@ This is a script created with python3 to rotate the backgrounds of any given pat
 # Requirements
 There is a requirements file which you can install with pip to correctly use this script.
 
+"""
+Logbook==1.5.3
+pkg-resources==0.0.0
+"""
+
 # Usage
 The script is designed to check if you are using it for the first time, and it will ask some input to configure itself. Once done once, it will run in the background, checking the log created.
 
