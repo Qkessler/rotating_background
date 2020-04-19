@@ -12,7 +12,7 @@ app_log = logbook.Logger('App')
 
 
 def rotating_background(path, days):
-    days = timedelta(days=days)
+    days = timedelta(days=int(days))
     command = 'gsettings set org.gnome.desktop.background picture-uri "'
     path_files = [f for f in os.listdir(path)]
     abs_path = os.path.abspath(path)
@@ -21,7 +21,6 @@ def rotating_background(path, days):
     last_background = None
     with open('backgrounds.log', 'r') as b:
         last_background = b.readline().strip('\n')
-    os.system('echo -n "" > backgrounds.log')
     if last_background:
         background = last_background
         while background in last_background:
@@ -33,9 +32,12 @@ def rotating_background(path, days):
     today = datetime.today()
     pat = re.compile(r'\d+-\d+-\d+')
     date_str = pat.findall(last_background)
+    print(last_background)
+    print(date_str)
     date = datetime.strptime(date_str[0], '%Y-%m-%d').date()
     if today.date() >= date + days:
         command = "".join([command, background])
         command = command + '"'
         os.system(command)
+        os.system('echo -n "" > backgrounds.log')
         app_log.trace(f'Set background: {background}')

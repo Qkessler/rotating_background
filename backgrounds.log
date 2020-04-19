@@ -1,7 +1,2 @@
-[2020-04-19 08:16:20.735692] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
-[2020-04-19 08:16:33.693284] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
-[2020-04-19 08:16:42.611917] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
-[2020-04-19 08:17:02.651238] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
-[2020-04-19 08:18:03.684798] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
-[2020-04-19 08:19:05.409899] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
-[2020-04-19 08:19:25.194836] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
+[2020-04-19 08:27:57.881607] TRACE: App: Set background: /home/qkessler/Wallpapers/willian-justen-de-vasconcellos-VgRyLtxFoOw-unsplash.jpg
+[2020-04-19 08:29:04.287163] NOTICE: Startup: Logging initialized, level: 9, mode: file mode: backgrounds.log
